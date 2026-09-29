@@ -7,8 +7,6 @@ Standalone parent POM for [tp-demo](https://github.com/jaimegag/tp-demo), kept i
 - Sets `java.version` (11) and `spring-boot.version`
 - Child projects inherit `spring-boot-starter-actuator`
 
-`src/main/java` holds a placeholder class so source scanners detect this as a Java project. With `pom` packaging, it is not compiled.
-
 ## Install
 
 ```bash
